@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/label_b"
+        android:background="@android:color/holo_orange_light"
+        android:text="A" />
+
+    <TextView
+        android:id="@+id/label_b"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/label_a"
+        app:layout_constraintStart_toEndOf="@id/label_a"
+        app:layout_constraintEnd_toStartOf="@id/label_c"
+        app:layout_constraintHorizontal_weight="2"
+        android:background="@android:color/holo_green_light"
+        android:text="B" />
+
+    <TextView
+        android:id="@+id/label_c"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/label_a"
+        app:layout_constraintStart_toEndOf="@id/label_b"
+        app:layout_constraintEnd_toStartOf="@id/label_d"
+        app:layout_constraintHorizontal_weight="4"
+        android:background="@android:color/holo_blue_light"
+        android:text="C" />
+
+    <TextView
+        android:id="@+id/label_d"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/label_a"
+        app:layout_constraintStart_toEndOf="@+id/label_c"
+        android:background="@android:color/holo_red_light"
+        android:text="D" />
+
+</android.support.constraint.ConstraintLayout>
