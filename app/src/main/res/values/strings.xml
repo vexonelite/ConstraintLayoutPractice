@@ -25,4 +25,13 @@
     <string name="camera">Camera</string>
     <string name="camera_value">Leica M Typ 240</string>
     <string name="singapore">Singapore</string>
+
+    <string name="button_text_evoting_begin">開始投票</string>
+    <string name="caption_text_evoting_entry">
+        金融監督管理委員會為保障股東權益，使股東得參與股東會行使表決權，於97年5月請集保結算所規劃建置電子投票平台，以落實股東行動主義。依據公司法第177條之1規定，股東以電子方式行使表決權，視同親自出席股東會，可解決股東會過度集中，或股東會會場偏遠而股東無法親自出席之不便。
+    </string>
+    <string name="been_playing">播放中&#8230;</string>
+    <string name="radio_type_multi_culture">多元文化</string>
+    <string name="empty_string"/>
+
 </resources>
